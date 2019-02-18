@@ -12,7 +12,7 @@ import javax.validation.constraints.NotNull;
 @Entity
 
 public class Campaign {
-
+ //komentarz
     private @Id @GeneratedValue Long id;
     @NotNull
     private String nameOfCampaign;
